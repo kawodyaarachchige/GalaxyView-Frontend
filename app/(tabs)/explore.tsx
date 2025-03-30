@@ -20,7 +20,7 @@ const FEATURES = [
     {
         id: 'mars',
         title: 'Mars Rovers',
-        icon: 'planet',
+        icon: 'rocket',
         description: 'Explore Mars through the eyes of NASA\'s rovers.',
         href: '/explore/mars',
     },
@@ -70,17 +70,18 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
     },
     header: {
-        fontSize: 32,
+        fontSize: 25,
         fontWeight: 'bold',
         textAlign: 'center',
-        marginTop: 60,
+        marginTop: 65,
         marginBottom: 8,
     },
     subtitle: {
         fontSize: 16,
         color: '#666',
         textAlign: 'center',
-        marginBottom: 30,
+        marginBottom: 20,
+        marginTop: 8,
     },
     grid: {
         padding: 15,

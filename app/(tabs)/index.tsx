@@ -98,7 +98,6 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         padding: 15,
-        paddingTop: 60,
         backgroundColor: '#fff',
         borderBottomWidth: 1,
         borderBottomColor: '#eee',
@@ -107,7 +106,7 @@ const styles = StyleSheet.create({
         flex: 1,
         flexDirection: 'row',
         alignItems: 'center',
-        backgroundColor: '#f5f5f5',
+        backgroundColor: 'rgba(2,2,2,0.5)',
         borderRadius: 8,
         marginRight: 10,
     },
@@ -169,4 +168,5 @@ const styles = StyleSheet.create({
         marginLeft: 4,
         color: '#666',
     },
+
 });

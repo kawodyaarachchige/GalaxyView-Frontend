@@ -8,8 +8,8 @@ export default function TabLayout() {
                 tabBarActiveTintColor: '#007AFF',
                 tabBarStyle: { paddingBottom: 5 ,
                 },
-                headerTitle: 'Nasa Explorer',
-                headerShown: false,
+                headerTitle: 'Galaxy View',
+                headerShown: true,
 
             }}>
             <Tabs.Screen

@@ -4,7 +4,7 @@ import articleReducer from './slices/articleSlice';
 import commentReducer from './slices/commentSlice';
 import apodReducer from './slices/apodSlice';
 import asteroidsReducer from './slices/asteroidsSlice';
-
+import marsReducer from './slices/marsSlice';
 
 export const store = configureStore({
     reducer: {
@@ -13,6 +13,7 @@ export const store = configureStore({
         comments: commentReducer,
         apod: apodReducer,
         asteroids: asteroidsReducer,
+        mars: marsReducer,
     },
 });
 
